@@ -12,7 +12,7 @@
 
         $routeProvider
             .when("/", {
-                template: "<h1>Hello</h1>",
+                template: "<home-user></home-user>",
             })
 //            .when("/about", {
 //                templateUrl: "/templates/about.html",

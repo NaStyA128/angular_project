@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>Articles</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <script defer src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
     <script defer src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
     <script defer src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-resource.js"></script>
@@ -13,9 +14,17 @@
 
     <script defer src="/js/angular_app/app.module.js"></script>
     <script defer src="/js/angular_app/app.config.js"></script>
+
+    <script defer src="/js/angular_app/header-user/header-user.module.js"></script>
+    <script defer src="/js/angular_app/header-user/header-user.component.js"></script>
+    <script defer src="/js/angular_app/home-user/home-user.module.js"></script>
+    <script defer src="/js/angular_app/home-user/home-user.component.js"></script>
+
 </head>
 <body data-ng-app="articles">
     <div class="container">
+        <header-user></header-user>
+
         <div class="col-sm-12" data-ng-view>
 
         </div>

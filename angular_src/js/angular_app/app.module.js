@@ -10,10 +10,7 @@
 //            'ui.bootstrap',
 
             //internal
-//            'blogDetail',
-//            'blogList',
-//            'confirmClick',
-//            'customer',
-//            'tryNav'
+            'homeUser',
+            'headerUser'
         ]);
-})();
+}) ();
