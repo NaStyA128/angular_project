@@ -14,18 +14,11 @@
             .when("/", {
                 template: "<home-user></home-user>",
             })
-//            .when("/about", {
-//                templateUrl: "/templates/about.html",
-//            })
-//            .when("/blog", {
-//                template: "<blog-list></blog-list>",
-////                redirectTo: "/"
-//            })
+            .when("/admin", {
+                template: "<h1>Hello admin</h1>",
+            })
 //            .when("/blog/:id", {
 //                template: "<blog-detail></blog-detail>",
-//            })
-//            .when("/customer", {
-//                template: "<customer></customer>",
 //            })
             .otherwise({
                 template: "Not Found"

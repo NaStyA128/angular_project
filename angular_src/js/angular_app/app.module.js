@@ -11,6 +11,9 @@
 
             //internal
             'homeUser',
-            'headerUser'
+            'headerUser',
+
+            //admin
+            'adminNav'
         ]);
 }) ();
